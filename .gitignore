@@ -31,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/src/main/java/com/Literalura/proyecto_Literalura/principal/Principal.java
