@@ -3,7 +3,9 @@ package com.Literalura.proyecto_Literalura.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ConvierteDatos implements IConvierteDatos{
     private ObjectMapper objectMapper = new ObjectMapper();
 
